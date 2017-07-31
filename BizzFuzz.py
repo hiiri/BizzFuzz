@@ -3,11 +3,11 @@ for i in range(1,101):
     buzz = 5
     moduloRemainder = 0
     if i % fizz == moduloRemainder and i % buzz == moduloRemainder:
-        print("FizzBuzz")
+        print("BizzFuzz")
     elif i % fizz == moduloRemainder:
-        print("Fizz")
+        print("Bizz")
     elif i % buzz == moduloRemainder:
-        print("Buzz")
+        print("Fuzz")
     else:
         print(i)
     
